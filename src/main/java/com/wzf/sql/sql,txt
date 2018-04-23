@@ -1,0 +1,8 @@
+<!--创建Student表-->
+create table Student(
+    id int identity(1,1),
+    name nvarchar(20),
+    primary key (id)
+)
+
+insert into Student values('wzf')
